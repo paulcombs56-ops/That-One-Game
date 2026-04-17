@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>That One Game</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d0d1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100dvh;
+      font-family: monospace;
+      color: #aaffaa;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      color: #44ff88;
+    }
+
+    #game-container {
+      width: 800px;
+      max-width: 100vw;
+      aspect-ratio: 8 / 5;
+      border: 2px solid #44ff88;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    footer {
+      margin-top: 0.5rem;
+      font-size: 0.7rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>That One Game</h1>
+
+  <!-- Phaser 3 from CDN – no build step required -->
+  <div id="game-container"></div>
+
+  <footer>Arrows / WASD · SHIFT run · SPACE attack · X swap world</footer>
+
+  <!-- Phaser 3 (CDN – no build step needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.88.2/dist/phaser.min.js"></script>
+
+  <!-- Game helpers (expose themselves on window.AssetLoader / window.AnimationHelper) -->
+  <script src="src/AssetLoader.js"></script>
+  <script src="src/AnimationHelper.js"></script>
+
+  <!-- Game entry point -->
+  <script src="src/main.js"></script>
+</body>
+</html>
