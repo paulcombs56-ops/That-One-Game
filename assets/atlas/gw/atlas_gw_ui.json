@@ -1,0 +1,355 @@
+{
+  "frames": {
+    "gw_ui_button_normal": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 120,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 40
+      }
+    },
+    "gw_ui_button_hover": {
+      "frame": {
+        "x": 124,
+        "y": 2,
+        "w": 120,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 40
+      }
+    },
+    "gw_ui_button_pressed": {
+      "frame": {
+        "x": 246,
+        "y": 2,
+        "w": 120,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 40
+      }
+    },
+    "gw_ui_panel": {
+      "frame": {
+        "x": 2,
+        "y": 44,
+        "w": 200,
+        "h": 150
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 150
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 150
+      }
+    },
+    "gw_ui_health_bar_bg": {
+      "frame": {
+        "x": 204,
+        "y": 44,
+        "w": 100,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 16
+      }
+    },
+    "gw_ui_health_bar_fill": {
+      "frame": {
+        "x": 306,
+        "y": 44,
+        "w": 100,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 16
+      }
+    },
+    "gw_ui_energy_bar_bg": {
+      "frame": {
+        "x": 408,
+        "y": 44,
+        "w": 100,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 16
+      }
+    },
+    "gw_ui_energy_bar_fill": {
+      "frame": {
+        "x": 2,
+        "y": 196,
+        "w": 100,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 16
+      }
+    },
+    "gw_ui_icon_hp": {
+      "frame": {
+        "x": 104,
+        "y": 196,
+        "w": 24,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      }
+    },
+    "gw_ui_icon_mp": {
+      "frame": {
+        "x": 130,
+        "y": 196,
+        "w": 24,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      }
+    },
+    "gw_ui_icon_exp": {
+      "frame": {
+        "x": 156,
+        "y": 196,
+        "w": 24,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      }
+    },
+    "gw_ui_icon_gold": {
+      "frame": {
+        "x": 182,
+        "y": 196,
+        "w": 24,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      }
+    },
+    "gw_ui_dialog_box": {
+      "frame": {
+        "x": 208,
+        "y": 196,
+        "w": 300,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 80
+      }
+    },
+    "gw_ui_cursor": {
+      "frame": {
+        "x": 2,
+        "y": 278,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      }
+    },
+    "gw_ui_minimap_bg": {
+      "frame": {
+        "x": 36,
+        "y": 278,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    "gw_ui_hud_frame": {
+      "frame": {
+        "x": 166,
+        "y": 278,
+        "w": 256,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 64
+      }
+    },
+    "gw_ui_level_up_banner": {
+      "frame": {
+        "x": 2,
+        "y": 408,
+        "w": 200,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 48
+      }
+    }
+  },
+  "meta": {
+    "app": "asset-generator",
+    "version": "1.0",
+    "image": "atlas_gw_ui.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 512
+    },
+    "scale": "1"
+  }
+}

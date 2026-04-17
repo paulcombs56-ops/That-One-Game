@@ -1,0 +1,11 @@
+{
+  "name": "that-one-game",
+  "version": "1.0.0",
+  "description": "That One Game – Phaser 3 placeholder asset pack generator and loader helpers",
+  "scripts": {
+    "generate": "node tools/generate-assets.js"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3"
+  }
+}
